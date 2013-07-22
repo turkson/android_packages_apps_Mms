@@ -285,6 +285,7 @@
     <string name="saved_ringtone" msgid="3847363932276708626">"Zil sesi kaydedildi."</string>
     <string name="saved_ringtone_fail" msgid="4778500070919251116">"Zil sesi kaydedilemedi."</string>
     <string name="menu_insert_smiley" msgid="4964504393061025071">"İfade ekle"</string>
+    <string name="menu_insert_emoji">Emoji ekle</string>
     <string name="select_link_title" msgid="3371818607625768447">"İşlem seçin"</string>
     <string name="slide_number" msgid="1923958526266726635">"Slayt <xliff:g id="NUMBER">%s</xliff:g>"</string>
   <plurals name="slide_duration">
@@ -342,4 +343,63 @@
     <string name="attachment_picture" msgid="3709286281567284296">"Resim"</string>
     <string name="notification_separator" msgid="2334673105226536422">"  "</string>
     <string name="enumeration_comma" msgid="213598026698964628">", "</string>
+    <string name="prefs_templates_settings">SMS şablonları</string>
+    <string name="pref_title_templates_manage">Şablonlar</string>
+    <string name="pref_summary_templates_manage">SMS şablonlarını yönet</string>
+    <string name="pref_title_templates_show_gesture">Gesture</string>
+    <string name="pref_summary_templates_show_gesture">Gesture izlerini göster</string>
+    <string name="pref_title_template_gestures_sensitivity">Gesture hassaslığı</string>
+    <string name="template_save">Kaydet</string>
+    <string name="template_insert_hint">Şablon metnini buraya gir</string>
+    <string name="template_empty_text">Metin alanı boş bırakılamaz</string>
+    <string name="template_explanation">Şablon metnini girin ya da düzenleyin, isterseniz bir kısayol (Gesture) ekleyebilirsiniz</string>
+    <string name="template_edit">Düzenle</string>
+    <string name="template_delete">Sil</string>
+    <string name="template_ctx_menu_title">Seçenekler</string>
+    <string name="template_list_title">Şablonlar</string>
+    <string name="template_new_title">Yeni Şablon</string>
+    <string name="template_insert">Şablon ekle</string>
+    <string name="template_gesture_draw">Aşağıdaki boşluğa kısayol (Gesture) çizebilirsiniz</string>
+    <string name="template_not_present_error">Tanımlanmış şablon bulunmamaktadır</string>
+    <string name="template_not_present_error_title">Hata</string>
+    <string name="template_select">Bir şablon seç</string>
+    <string name="template_cancel_confirm_title">Uyarı</string>
+    <string name="template_cancel_confirm_text">Şablon silinecek. Devam?</string>
+    <string name="gestures_already_present">Uyarı: Benzer bir kısayol (Gesture) başka bir şablon için tanımlanmış!</string>
+    <string name="pref_title_mms_notification_vibrate_settings">Titreşim ayarları</string>
+    <string name="pref_title_mms_notification_vibrate_pattern">Titreşim şekli</string>
+    <string name="pref_summary_mms_notification_vibrate_pattern">Titreşim şeklini değiştir</string>
+    <string name="pref_title_mms_notification_vibrate_call">Aramada titreşim</string>
+    <string name="pref_summary_mms_notification_vibrate_call">Arama esnasında titreşime izin ver</string>
+    <string name="pref_title_mms_notification_vibrate_custom">Titreşim şekli oluştur</string>
+    <string name="pref_text_mms_notification_vibrate_custom">Milisaniyelik kapalı/açık düzeninde: kapalı, açık, kapalı, açık, ...</string>
+    <string name="pref_extra_settings">Ekstra ayarlar</string>
+    <string name="pref_title_strip_unicode">Unicode sınırlaması</string>
+    <string name="pref_summary_strip_unicode">160 karakterlik SMS mesajları tarafından desteklenmeyen karakterler yerine yaygın karakterleri kullanır</string>
+    <string name="pref_title_enable_emojis">Emoji desteği</string>
+    <string name="pref_summary_enable_emojis">Unicode emoji desteğini açar, 471 adet güzel emojiler</string>
+    <string name="pref_title_mms_full_timestamp">Tam zamanı göster</string>
+    <string name="pref_summary_mms_full_timestamp">Mesajlarda tarih ve zamanı birlikte gösterir</string>
+    <string name="pref_title_mms_use_sent_timestamp">Orijinal zamanı göster</string>
+    <string name="pref_summary_mms_use_sent_timestamp">Mesajlarda alınma zamanı yerine gönderilme zamanını gösterir</string>
+    <string name="pref_keyboard_emoji">İfade tuşunu göster</string>
+    <string name="pref_keyboard_new_line">Enter tuşunu göster</string>
+    <string name="pref_keyboard_unknown">Bilinmeyen, lütfen yeniden seçin</string>
+    <string name="pref_quickmessage">HızlıMesaj and cevap</string>
+    <string name="pref_quickmessage_title">HızlıMesaj göster</string>
+    <string name="pref_quickmessage_summary">SMS mesajı geldiğinde HızlıMesaj kutucuğunu gösterir</string>
+    <string name="pref_wake_unlock_title">Uyan ve kilit aç</string>
+    <string name="pref_wake_unlock_summary">Mesaj geldiğinde cihaz ekranı açılır (sadece kilitsiz ekranları açar)</string>
+    <string name="pref_close_all_title">Hepsini kapat</string>
+    <string name="pref_close_all_summary">Kapat butonu tüm mesajları kapatır</string>
+    <string name="pref_dark_theme_title">Siyah tema kullan</string>
+    <string name="pref_dark_theme_summary">Eğer seçili değilse \'açık\' tema kullanılacak</string>
+    <string name="message_counter_separator">of</string>
+    <string name="button_close">Kapat</string>
+    <string name="button_view">Görüntüle</string>
+    <string name="button_templates">Şablonlar</string>
+    <string name="type_to_reply_text_enter_to_send">Buraya yazınız</string>
+    <string name="toast_sending_message">Mesaj gönderiliyor</string>
+    <string name="qm_quick_reply">Hızlı cevap</string>
+    <string name="menu_add_to_calendar">Takvime ekle</string>
 </resources>
